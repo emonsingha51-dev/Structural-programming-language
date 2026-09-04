@@ -5,4 +5,4 @@ int main () {
     char grade = 'A';
     printf("studentid = %d, score = %f, grade =%c",studentID,score,grade);
     return 0;
-}
+}s
