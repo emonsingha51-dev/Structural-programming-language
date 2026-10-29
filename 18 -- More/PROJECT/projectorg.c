@@ -19,10 +19,10 @@ int main() {
     int i;
 
     printf("Enter Organisation Name: ");
-    scanf(" %[^\n]", o.name);
+    scanf("%49s", o.name);
 
     printf("Enter Location: ");
-    scanf(" %[^\n]", o.location);
+    scanf("%49s", o.location);
 
     printf("Enter Total Employees (1-10): ");
     scanf("%d", &o.total);
@@ -39,10 +39,10 @@ int main() {
         scanf("%d", &o.e[i].id);
 
         printf("Enter Name: ");
-        scanf(" %[^\n]", o.e[i].name);
+        scanf("%29s", o.e[i].name);
 
         printf("Enter Home District: ");
-        scanf(" %[^\n]", o.e[i].district);
+        scanf("%29s", o.e[i].district);
     }
 
     printf("\n--- Organisation Information ---\n");
@@ -60,4 +60,3 @@ int main() {
 
     return 0;
 }
-
