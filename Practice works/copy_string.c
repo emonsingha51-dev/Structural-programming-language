@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main ( ){
+   char name1[100];
+   char name2 [100];
+   int i;
+   printf(" enter first name ");
+   gets(name1);
+   for ( i =0; name1[i]!='\0';i++){
+      name2[i]= name1[i];
+    }
+    name2[i]='\0';
+  
+   printf("%s ", name2);
+   return 0;
+
+
+}
